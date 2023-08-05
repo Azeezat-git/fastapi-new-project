@@ -34,7 +34,7 @@ app.include_router(user.router)
 @app.get("/")
 def get_user():
     
-    return {"message": "Welcome to Azeezat's API"}
+    return {"message": "Welcome to Azeezat's API, pushing out to Ubuntu"}
 
 
 
